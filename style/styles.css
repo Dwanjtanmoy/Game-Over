@@ -165,15 +165,15 @@ p {
     height: 80%;
     width: 90%;
     margin-left: 50px;
+ 
+
 }
 
 .extra-img {
     background-repeat: no-repeat;
-    box-sizing: 0px 4px 30px 0px white(0, 0, 0, 0.05);
     border-radius: 8px;
     width: 318.5px;
     height: 365.083px;
-    box-shadow: 0px 4px 30px 0px white;
     position: relative;
     bottom: 300px;
     right: 300px;
@@ -225,23 +225,45 @@ p {
     .banner-text p {
         font-size: 15px;
     }
+
     /* banner responsive ends here */
 
 
 
-    .grid-container{
-grid-template-columns: 1fr;
+    .grid-container {
+        grid-template-columns: 1fr;
     }
-   
-    .video-intro h3{
-font-size: 30px;
+
+    .video-intro h3 {
+        font-size: 30px;
     }
+
+    /* Features section */
+    .features {
+        flex-direction: column;
+    }
+    .features-content{
+        width: 100%;
+    }
+    .section-description{
+        margin-bottom: 20px;
+    }
+    .features-img .cartoon{
+        width: 80%;
+    }
+    .features-img .extra-img{
+    bottom: 100px;
+    left: -60px;
+    }
+
 }
+
 
 
 /* Tablet */
 @media screen and (min-width:426px) and (max-width:769px) {
-    .nav-container {
+    .nav-container,
+    .features {
         flex-direction: column;
     }
 
@@ -281,5 +303,18 @@ font-size: 30px;
 
     .banner-text p {
         font-size: 20px;
+    }
+
+    .features-content{
+        width: 100%;
+    }
+    .features-img .cartoon{
+        width: 80%;
+    }
+    .features-img .extra-img{
+        width: 10%;
+    }
+    .section-description{
+        margin-bottom: 20px;
     }
 }
