@@ -179,6 +179,35 @@ p {
     right: 300px;
 }
 
+/* bonus section starts here */
+.review-container{
+    min-height: 100px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+
+}
+.single-review{
+    /* border: 2px solid green; */
+    flex-basis: 300px;
+    padding: 10px;
+    cursor: pointer;
+}
+.top-review{
+    display: flex;
+    align-items: center;
+}
+.single-review img{
+    width: 60px;
+    height: 60px;
+}
+.single-review:hover{
+    border: 1px solid red;
+    color: red;
+    border-radius: 45px;
+    font-weight: bolder;
+}
 
 
 
