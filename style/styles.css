@@ -185,13 +185,13 @@ p {
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
     
 
 }
 .single-review{
     /* border: 2px solid green; */
     flex-basis: 300px;
-    padding: 10px;
     cursor: pointer;
 }
 .top-review{
@@ -284,6 +284,10 @@ p {
     bottom: 100px;
     left: -60px;
     }
+    /* review section */
+    .review-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
 
 }
 
@@ -346,4 +350,9 @@ p {
     .section-description{
         margin-bottom: 20px;
     }
+       /* review section */
+       .review-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
 }
