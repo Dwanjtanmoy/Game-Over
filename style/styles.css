@@ -234,7 +234,8 @@ nav {
     margin: 30px auto;
     min-height: 100px;
     margin-top: 20px;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
 }
@@ -242,6 +243,7 @@ nav {
 .single-review {
     /* border: 2px solid green; */
     cursor: pointer;
+    flex-basis: 250px;
 }
 
 .top-review {
@@ -447,6 +449,7 @@ footer{
 
     .review-container {
         width: 100%;
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
         margin: 30px auto;
         gap: 20px;
@@ -622,6 +625,7 @@ footer{
 
     /* review section */
     .review-container {
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
 
