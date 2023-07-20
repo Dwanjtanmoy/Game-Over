@@ -171,7 +171,8 @@ p {
 .features-title {
     font-size: 48px;
 }
-.section-description{
+
+.section-description {
     color: gray;
     font-size: 15px;
 }
@@ -196,16 +197,19 @@ p {
 
 /* bonus section starts here */
 
-.our-new-game{
+.our-new-game {
     text-align: center;
 }
-.our-new-game h2{
+
+.our-new-game h2 {
     font-size: 40px;
     color: #8758F1;
 }
-.our-new-game p{
+
+.our-new-game p {
     color: gray;
 }
+
 .review-container {
     max-width: 1400px;
     margin: 30px auto;
@@ -240,56 +244,63 @@ p {
 
 /* footer section */
 
-footer {
-    max-width: 1400px;
-    margin: 0 auto;
+footer{
+    max-width: 100%;
     background-color: black;
-    /* width: 100%; */
-    height: 500px;
-    padding: 10px 200px;
+    min-height: 400px;
 }
-
-.footer-container {
-    font-weight: bolder;
-    margin-top: 50px;
+.footer-one{
+    color: white;
+    max-width: 800px;
+    margin: 50px auto;
     display: flex;
+    justify-content: center;
     text-align: center;
 }
-
-.story {
+.footer-one p{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.footer-one img{
+    width: 60px;
+    margin-right: 10px
+}
+.footer-two{
+    color: white;
+    max-width: 800px;
+    margin: 50px auto;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    color: #FFF;
+    gap: 5px;
     text-align: center;
-    margin-top: 50px;
-    font-weight: bolder;
-    font-size: 18px;
 }
-
-.social-icon {
+.footer-three{
+    color: white;
+    max-width: 800px;
+    margin: 50px auto; 
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    text-align: center;
-    margin-top: 50px;
-    font-weight: bolder;
-    font-size: 50px;
-}
-
-.conditions {
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    color: gray;
-    font-size: 12px;
-}
-
-.restriction {
-    color: gray;
-    margin: 90px auto;
-    text-align: center;
+    grid-template-columns: repeat(6, 1fr); 
     font-size: 20px;
-    font-weight: bold;
+    text-align: center;
+    
 }
+.footer-four{
+    color: gray;
+    max-width: 800px;
+    margin: 50px auto; 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    text-align: center;
+    
+}
+.footer-five{
+    color: gray;
+    max-width: 800px;
+    margin: 50px auto; 
+    display: grid;
+    text-align: center; 
+}
+
 
 
 
@@ -410,9 +421,10 @@ footer {
     }
 
     /* review section */
-    .our-new-game h2{
+    .our-new-game h2 {
         font-size: 30px;
     }
+
     .review-container {
         width: 100%;
         grid-template-columns: repeat(3, 1fr);
@@ -429,61 +441,66 @@ footer {
         font-size: 10px;
     }
 
-    footer {
-        max-width: 1400px;
-        margin: 0 auto;
+/* footer section */
+
+    footer{
+        max-width: 100%;
         background-color: black;
-        /* width: 100%; */
-        height: 800px;
-        padding: 10px 0px;
+        min-height: 550px;
     }
-
-    .footer-container {
-        font-weight: bolder;
-        margin-top: 50px;
-        display: flex;
-        text-align: center;
-    }
-
-    .story {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        color: #FFF;
-        text-align: center;
-        margin-top: 50px;
-        font-weight: bolder;
-        font-size: 10px;
-        gap: 20px;
-    }
-
-    .social-icon {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        text-align: center;
-        margin-top: 50px;
-        margin-bottom: 30px;
-        font-weight: bolder;
-        font-size: 30px;
-    }
-
-    .conditions {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+    .footer-one{
         color: white;
-        font-size: 12px;
+        max-width: 300px;
+        margin: 20px auto;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-one p{
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    .footer-one img{
+        width: 60px;
+        margin-right: 20px
+    }
+    .footer-two{
+        color: white;
+        max-width: 300px;
+        margin: 20px auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         gap: 20px;
-
-    }
-
-    .restriction {
-        color: gray;
-        margin: 90px auto;
         text-align: center;
-        font-size: 15px;
-        font-weight: bold;
     }
-
-
+    .footer-three{
+        color: white;
+        max-width: 300px;
+        margin: 20px auto; 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        font-size: 20px;
+        gap: 10px;
+        text-align: center;
+        
+    }
+    .footer-four{
+        color: gray;
+        max-width: 300px;
+        margin: 20px auto; 
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr); 
+        text-align: center;
+        
+    }
+    .footer-five{
+        color: gray;
+        max-width: 300px;
+        margin: 20px auto; 
+        display: grid;
+        text-align: center; 
+    }
+    
 
 
 
@@ -571,60 +588,65 @@ footer {
 
 
     /* footer section */
-    footer {
-        max-width: 1400px;
-        margin: 0 auto;
+
+    footer{
+        max-width: 100%;
         background-color: black;
-        height: 800px;
-        padding: 10px 0px;
     }
-
-    .footer-container {
-        text-align: center;
-        margin-top: 50px;
-        padding: 10px 80px;
-        font-weight: bolder;
-        font-size: 20px;
+    .footer-one{
+        color: white;
+        max-width: 500px;
+        margin: 10px auto;
+        display: flex;
+        justify-content: center;
     }
-
-    .story {
-        color: #FFF;
-        grid-template-columns: repeat(3, 1fr);
-        text-align: center;
-        margin-top: 50px;
-        padding: 10px 80px;
-        font-weight: bold;
-        font-size: 20px;
-        gap: 10px;
-    }
-
-    .conditions {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        text-align: center;
-        margin-top: 50px;
-        padding: 10px 80px;
-        font-weight: bold;
-        font-size: 15px;
-        gap: 10px;
-    }
-
-    .social-icon {
-        grid-template-columns: repeat(3, 1fr);
-        text-align: center;
-        margin-top: 50px;
-        padding: 10px 80px;
-        font-weight: bold;
+    .footer-one p{
         font-size: 25px;
-        gap: 10px;
+        font-weight: bolder;
     }
-
-    .restriction {
+    .footer-one img{
+        width: 60px;
+        margin-right: 20px
+    }
+    .footer-two{
+        color: white;
+        max-width: 500px;
+        margin: 10px auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
         text-align: center;
-        margin-top: 50px;
-        padding: 10px 80px;
-        font-weight: bold;
-        font-size: 15px;
-        gap: 10px;
     }
+    .footer-three{
+        color: white;
+        max-width: 500px;
+        margin: 10px auto; 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        font-size: 20px;
+        gap: 10px;
+        text-align: center;
+        
+    }
+    .footer-four{
+        color: gray;
+        max-width: 500px;
+        margin: 10px auto; 
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr); 
+        text-align: center;
+        
+    }
+    .footer-five{
+        color: gray;
+        max-width: 500px;
+        margin: 10px auto; 
+        display: grid;
+        text-align: center; 
+    }
+    
+
+
+    
 }
